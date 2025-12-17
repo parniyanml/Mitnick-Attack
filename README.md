@@ -28,9 +28,3 @@ The objective is to establish a spoofed TCP connection to a victim machine (X-Te
 - `task2_1.py`: Spoofs the **first TCP connection** (Handshake + RSH Command payload).
 - `task2_2.py`: Spoofs the **second TCP connection** (Required by RSH for error reporting).
 
-## ⚡ Step-by-Step Execution Guide
-
-### 1. Initial Setup
-Start the lab environment using Docker Compose:
-```bash
-sudo docker-compose up -d
